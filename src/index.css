@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+}
+
+.main-box{
+
+            width: 80%;
+            height: 50vh;
+            display: flex;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 10px;
+            background-color: aqua;
+}
+
+.main-box .watch-time{
+
+    width: 90%;
+    height: 45vh;
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+h1{
+   color: #fff;
+}
+
+ .M-box .watch-button{
+
+        width: 70%;
+        height: 10vh;
+        display: flex;
+        position: fixed;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        justify-content: space-between;
+        background-color: rgb(239, 239, 245);
+}
+
+.watch-button #button-property{
+
+        width: 100px;
+        margin: 10px;
+        border: none;
+        border-radius: 4px;
+        background-color: yellow;
+}
+
+
