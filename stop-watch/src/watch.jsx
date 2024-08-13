@@ -13,7 +13,7 @@ export default function watch() {
                 </div>
             
             <div className='watch-button'>
-                    <button id='button'>Start</button>
+                    <button id='button'>Start testing</button>
                     <button id='button'>Stop</button>
                     <button id='button'>Reset</button>
             </div>
