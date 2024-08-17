@@ -126,3 +126,13 @@ a{
     background-size: cover;
 }
 
+.login-container .login-right-box{
+
+        max-width: 720px;
+        background-color: aqua;
+        margin-left: 550px;
+        margin-top: -10px;
+        border-radius: 4px;
+        height: 50vh;
+        width: 50%;
+}
