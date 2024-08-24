@@ -106,33 +106,3 @@ a{
     background-color: #540486;
 }
 
-.login-container {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    border: 2px solid #fff;
-    transform: translate(-50%, -50%);
-    max-width: 1120px;
-    width: 100%;
-    height: 50vh;
-    background-color: #540486;
-    border-radius: 50px;
-}
-
-.form-box .imgcontainer{
-
-    background-image: url(img.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.login-container .login-right-box{
-
-        max-width: 720px;
-        background-color: aqua;
-        margin-left: 550px;
-        margin-top: -10px;
-        border-radius: 4px;
-        height: 50vh;
-        width: 50%;
-}
