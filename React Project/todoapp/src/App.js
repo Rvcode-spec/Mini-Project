@@ -4,6 +4,10 @@ import List from "./Todo App/List";
 function App() {
 
     const[todos, settodos]=useState(["Ravi","Rahul", "Rohit"])
+    const[edittodos, setedittods]=useState({
+      index:'', 
+      value: ''
+    })
 
     const addtodo=(value)=>{
 
@@ -22,9 +26,24 @@ function App() {
       settodos(filtertodos)
   }
 
-  const edittodo=()=>{
+  const edittodo=(index, value)=>{
     // console.log();
     console.log("edit todo fired ");
+
+
+    setedittods({
+        index, 
+        value
+    })
+
+    console.log("fighter", edittodos);
+    
+  }
+
+  const updata=()=>{
+
+        console.log("todo updata");
+        
   }
     
   return (
@@ -32,7 +51,7 @@ function App() {
 
       {/* <h1>Hello</h1> */}
       <Input addtodo={addtodo} />
-      <List todos={todos} deletetodo={deletetodo} edittodo={edittodo}/>
+      <List todos={todos} deletetodo={deletetodo} edittodo={edittodo} updata={updata}/>
     
     </div>
   );

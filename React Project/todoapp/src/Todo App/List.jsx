@@ -19,7 +19,7 @@ export default function List(props) {
                     
                     >Delete</button>
 
-                        <button className='btn-warning mx-3' onClick={()=>{props.edittodo()}}>Edit</button>
+                        <button className='btn-warning mx-3' onClick={()=>{props.edittodo(index, todo)}}>Edit</button>
                         
                     
                     
