@@ -136,3 +136,11 @@ a{
 .login-right-box h2 {
     margin: 0; /* Ensure there's no margin if you want it centered perfectly */
 }
+
+.imgcontainer{
+
+    width: 200px;
+    height: 50px;
+    background-color: #406680;
+    margin-left: 20px;
+}
