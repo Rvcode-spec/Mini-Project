@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Input from "./Todo App/Input";
 import List from "./Todo App/List";
+import Box from "./Todo App/Box";
 function App() {
 
     const[todos, settodos]=useState(["Ravi","Rahul", "Rohit"])
@@ -52,6 +53,7 @@ function App() {
       {/* <h1>Hello</h1> */}
       <Input addtodo={addtodo} />
       <List todos={todos} deletetodo={deletetodo} edittodo={edittodo} updata={updata}/>
+      <Box/>
     
     </div>
   );
