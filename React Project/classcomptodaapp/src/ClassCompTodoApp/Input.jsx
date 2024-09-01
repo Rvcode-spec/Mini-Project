@@ -35,10 +35,7 @@ export default class Input extends Component {
    
 
     componentDidMount(){
-      console.log(this.props,"kkkk");
-      
-    
-
+     
     }
   render() {
     return (

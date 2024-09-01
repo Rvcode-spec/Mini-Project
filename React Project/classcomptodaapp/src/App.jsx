@@ -8,17 +8,17 @@ export default class App extends Component {
       todos: ['Ravi','Shankar', "Sukha", "Rohan"]
     
   }
-  
+  this.addtodo=(value)=>{
+    // console.log("coming value ",value);
+    this.setState({
+      todos:[...this.state.todos,value]
+    })
 
       
   }
 
 
-  addtodo(value){
-    // console.log("coming value ",value);
-    this.setState({
-      todos:[...this.state.todos,value]
-    })
+  
 
     // this.setState([...todos, value])
     // todos: [...this.state.todos, value]
