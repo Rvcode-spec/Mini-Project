@@ -39,4 +39,14 @@ h1{
 }
 
 
+.Class-Box{
+
+      width: 400px;
+      height: 200px;
+      border-radius: 10px;
+      margin-left: 40px;
+      background-color: aqua;
+
+}
+
 

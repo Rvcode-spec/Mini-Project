@@ -12,8 +12,7 @@ export default function Index() {
     </div>      
 <div>
                 <h1>Satvik.in</h1>
-                <div className=''>
-
+                <div className='Class-Box'>
             </div>
         </div>
 
