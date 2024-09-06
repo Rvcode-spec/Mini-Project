@@ -39,14 +39,30 @@ h1{
 }
 
 
-.Class-Box{
+.main{
 
       width: 400px;
       height: 200px;
       border-radius: 10px;
-      margin-left: 40px;
+      /* margin-left: 40px; */
+      display: flex;
+      /* overflow: auto; */
+      margin-top: 10%;
+      flex-wrap: wrap;
       background-color: aqua;
 
 }
 
+.Class-Box{
+
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 40px;
+  display: flex;
+  overflow: auto;
+  margin-top: 10px;
+  background-color: aqua;
+
+}
 

@@ -10,13 +10,20 @@ export default function Index() {
             <div className='menu-bar'>
         </div>
     </div>      
-<div>
+              <div>
                 <h1>Satvik.in</h1>
-                <div className='Class-Box'>
             </div>
-        </div>
 
-      
+            <div className='main'>
+                 <div className='Class-Box'></div>
+                <div className='Class-Box'></div>
+                <div className='Class-Box'></div>
+                <div className='Class-Box'></div>
+                <div className='Class-Box'></div>
+            </div>
+               
+     
+
     </div>
   )
 }
