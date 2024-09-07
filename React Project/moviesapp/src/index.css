@@ -1,0 +1,12 @@
+body {
+  
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.Header{
+
+      height: 58px;
+      background-color: rgb(15, 125, 221);
+}
