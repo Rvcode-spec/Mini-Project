@@ -8,5 +8,7 @@ body {
 .Header{
 
       height: 58px;
+      display: flex;
+      justify-content: space-between;
       background-color: rgb(15, 125, 221);
 }
