@@ -1,11 +1,10 @@
-
-
 function App() {
   return (
-    <div className="Header">
+    <div className="navbar">
         <div className="logo">
-                <h3>hello</h3>
+                <p className="logo">ReelMotion</p>
         </div>
+
       <nav className="menu">
           <ul>
             <li>home</li>
@@ -16,13 +15,12 @@ function App() {
 
         <div className="serch-box">
           <input type="text" placeholder="serching" />
-          <i class="fa-solid fa-magnifying-glass" style={{color:"#fff"}}></i>
+          <i class="fa-solid fa-magnifying-glass" style={{color:"black" }}></i>
         </div>
 
           <div className="user-icon">
           <i class="fa-solid fa-user" style={{color:"#fff"}}></i>
           </div>
-
     </div>
   );
 }

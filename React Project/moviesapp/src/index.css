@@ -1,14 +1,64 @@
 body {
-  
     margin: 0px;
     padding: 0px;
+    text-transform: capitalize;
     background-color: black;
 }
 
-.Header{
+.navbar{
 
       height: 58px;
       display: flex;
-      justify-content: space-between;
-      background-color: rgb(15, 125, 221);
+      justify-content: space-evenly;
+      background-color: #fff
 }
+
+.menu ul{
+
+        font-size: 18px;
+}
+
+.menu li{
+
+        color: black;
+        display: inline;;
+        justify-content: space-evenly;
+}
+
+.logo{
+    width: 300px;
+    height: 87px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 6px;
+    font-weight: 700;
+    font-family: "Merienda";
+    color: #e21010;
+    text-shadow: 1px 1px 2px black,
+    0 0 1em rgb(209, 237, 67),
+    0 0 0.2em rgb(255, 247, 0);;
+}
+
+.serch-box{
+
+        margin-top: 18px;
+        width: 57px;
+        height: 30px;
+        display: flex;
+        font-size: 18px;
+        
+}
+
+.serch-box input{
+
+    /* width: 100 */
+    border: 1px solid blue;
+    border-radius: 8px;
+    
+
+    
+}
+
+
+
+
