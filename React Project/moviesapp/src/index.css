@@ -1,7 +1,10 @@
+
+
+
+
 body {
     margin: 0px;
     padding: 0px;
-    text-transform: capitalize;
     background-color: black;
 }
 
@@ -22,7 +25,9 @@ body {
 
         color: black;
         display: inline;;
-        justify-content: space-evenly;
+        margin: 25px;
+        text-transform: capitalize;
+        justify-content: space-between;
 }
 
 .logo{

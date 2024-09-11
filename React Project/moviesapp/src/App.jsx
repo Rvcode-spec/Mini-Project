@@ -7,9 +7,9 @@ function App() {
 
       <nav className="menu">
           <ul>
-            <li>home</li>
+            <li>home</li> 
             <li>movies</li>
-            <li>Watchlist</li>
+            <li>watchlist</li>
           </ul>
       </nav>
 
