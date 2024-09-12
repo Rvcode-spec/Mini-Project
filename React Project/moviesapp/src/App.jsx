@@ -5,22 +5,26 @@ function App() {
                 <p className="logo">ReelMotion</p>
         </div>
 
-      <nav className="menu">
+      <div className="menu">
           <ul>
             <li>home</li> 
             <li>movies</li>
             <li>watchlist</li>
           </ul>
-      </nav>
+      </div>
 
-        <div className="serch-box">
+        <div className="serchbox">
           <input type="text" placeholder="serching" />
+          <div id="icon">
           <i class="fa-solid fa-magnifying-glass" style={{color:"black" }}></i>
+          </div>
         </div>
 
-          <div className="user-icon">
-          <i class="fa-solid fa-user" style={{color:"#fff"}}></i>
-          </div>
+                <div className="Login">
+
+                    <button className="">Login</button>
+
+                </div>
     </div>
   );
 }
