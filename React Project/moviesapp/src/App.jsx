@@ -7,9 +7,9 @@ function App() {
 
       <div className="menu">
           <ul>
-            <li>home</li> 
-            <li>movies</li>
-            <li>watchlist</li>
+            <li><a href="home">home</a></li> 
+            <li><a href="movies">movies</a></li>
+            <li><a href="watchlist">watchlist</a></li>
           </ul>
       </div>
 

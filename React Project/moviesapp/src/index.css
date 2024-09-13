@@ -6,8 +6,11 @@ body {
 
 .navbar{
 
-      height: 58px;
+      height: auto;
+      width: 100%;
       display: flex;
+      flex-wrap: wrap; 
+      justify-content: space-between;
       background-color: #fff
 }
 
@@ -54,6 +57,11 @@ body {
         justify-content: space-between;
 }
 
+li a{
+        transform: none;
+        color: black;
+        text-decoration: none;
+}
 
 .serchbox{
 
@@ -91,6 +99,4 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-
 
