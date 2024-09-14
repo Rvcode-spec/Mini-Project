@@ -1,0 +1,50 @@
+*{
+
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.box{
+      width: 700px;
+      height: 300px;
+      top: 50%;
+      left: 50%;
+      box-sizing: border-box;
+      position: fixed;
+      border-radius: 10px;
+      transform: translate(-50%, -50%);
+      background-color: aqua;
+}
+
+.Input-Field{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically centers the input */
+  /* background-color: black; */
+}
+
+.Input-Field input{
+
+  border: none;
+  outline: none;
+  width: 30%;
+  height: 50px;
+  border-radius: 6px;
+  display: flex;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.list-field{
+
+  margin-top: 10px;
+  
+}
+
+.list-field ul li{
+background-color: aqua;
+border: none;
+}
