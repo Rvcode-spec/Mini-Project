@@ -7,7 +7,6 @@ const App = () => {
     <div className='box'>
       <Input/>
       <List/>
-      
     </div>
   )
 }

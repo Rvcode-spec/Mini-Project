@@ -14,7 +14,7 @@
       position: fixed;
       border-radius: 10px;
       transform: translate(-50%, -50%);
-      background-color: aqua;
+      background-color: rgb(0, 255, 166);
 }
 
 .Input-Field{
@@ -34,7 +34,7 @@
   height: 50px;
   border-radius: 6px;
   display: flex;
-  margin-top: 5%;
+  margin-top: 2%;
   text-align: center;
 }
 
@@ -45,6 +45,6 @@
 }
 
 .list-field ul li{
-background-color: aqua;
+background-color: rgb(14, 232, 232);
 border: none;
 }

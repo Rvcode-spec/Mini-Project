@@ -2,7 +2,7 @@ import React, { createContext, useState } from 'react'
 
 const TodoApicontext=createContext();
 const Todoprovider = ({children}) => {
-    const [todo, setTodo]=useState(["Ravi", "Shankar", "singh"]);
+    const [todo, setTodo]=useState([""]);
     
     const addtodo=(task)=>{
       setTodo([...todo,task])
@@ -19,4 +19,4 @@ const Todoprovider = ({children}) => {
   )
 }
 
-export  {Todoprovider,TodoApicontext}
+export {TodoApicontext, Todoprovider}
