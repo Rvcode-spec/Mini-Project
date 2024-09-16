@@ -3,14 +3,14 @@ import { TodoApicontext } from '../Todocontext'
 
 
 const Input = () => {
-  const {todo, settodo}=useContext('')
-  const { addtodo } = useContext(TodoApicontext);
+  // const {todo, settodo}=useContext('')
+  const { todo, settodo, addtodo} = useContext(TodoApicontext);
+  // const {addtodo}=useContext(TodoApicontext);
 
-  const handleAddTodo = () => {
-    if (todo.trim()) {    // trim() removes leading/trailing spaces, ensures todo is not empty
+  const AddTodo = () => {
       addtodo(todo);  // Call the addtodo function from context
       settodo('');    // Clear the input after adding the todo
-    }
+    
   };
   
   return (
@@ -18,8 +18,8 @@ const Input = () => {
       <input type="text"  placeholder='Enter the Todos'
       value={todo} 
       onChange={(e) => settodo(e.target.value)} />
-
-      <button onClick={handleAddTodo}>Add</button>
+      
+      <button onClick={AddTodo}>Add</button>
     </div>
   )
 }
