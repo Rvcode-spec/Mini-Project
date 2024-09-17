@@ -1,30 +1,29 @@
+import Home from "./Movieapp/Home";
+import Movies from "./Movieapp/Movies";
+import Navbar from "./Movieapp/Navbar";
+import Watchlist from "./Movieapp/Watchlist";
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+
 function App() {
   return (
-    <div className="navbar">
-        <div className="logo">
-                <p className="logo">ReelMotion</p>
-        </div>
+    <div>
+      <BrowserRouter>
+      <Navbar/>
 
-      <div className="menu">
-          <ul>
-            <li><a href="home">home</a></li> 
-            <li><a href="movies">movies</a></li>
-            <li><a href="watchlist">watchlist</a></li>
-          </ul>
-      </div>
+      <Routes>
+      <Route path="/" element={<Home/>} />
 
-        <div className="serchbox">
-          <input type="text" placeholder="serching" />
-          <div id="icon">
-          <i class="fa-solid fa-magnifying-glass" style={{color:"black" }}></i>
-          </div>
-        </div>
+{/* Movies Route */}
+          <Route path="/movies" element={<Movies />} />
 
-                <div className="Login">
+        <Route path="/watchlist" element={ <Watchlist/>}></Route>
 
-                    <button className="">Login</button>
+    
+     
+      </Routes>
+      </BrowserRouter>
+        
 
-                </div>
     </div>
   );
 }

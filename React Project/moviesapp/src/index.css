@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    color: #fff;
     background-color: black;
 }
 
@@ -28,6 +29,7 @@ body {
     text-shadow: 1px 1px 2px black,
     0 0 1em rgb(209, 237, 67),
     0 0 0.2em rgb(255, 247, 0);;
+
 }
 
 
@@ -38,7 +40,6 @@ body {
         display: flex;
         justify-content: space-between;
         /* background-color: #e21010; */
-
 }
 
 .menu ul{
@@ -52,7 +53,7 @@ body {
 
         color: black;
         display: inline;;
-        margin: 29px;
+        /* margin: 29px; */
         text-transform: capitalize;
         justify-content: space-between;
 }
@@ -78,6 +79,7 @@ li a{
         width: 280px;
         /* height: 25px; */
         outline: none;
+        margin-left: -40px;
         box-sizing: border-box;
         border: 0.5px solid black;
         border-radius: 8px 0px 0px 8px;
@@ -98,5 +100,28 @@ li a{
     font-size: 18px;
     justify-content: center;
     align-items: center;
+}
+
+.Login {
+
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #e21010; */
+}
+.Login button{
+
+        width: 90px;
+        height: 30px;
+        border: none;
+        margin-left: -40px;
+        background-color: rgb(163, 115, 208);
+        border-radius: 8px;
+}
+
+.Login button:hover{
+
+                background-color: burlywood;
 }
 
