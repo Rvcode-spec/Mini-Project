@@ -12,13 +12,13 @@ const Homepages = () => {
           <small className="me-3">
             <i className="fas fa-map-marker-alt me-2 text-secondary" />{" "}
             <a href="#" className="text-white">
-              123 Street, New York
+              504,Gk-2 New Delhi 
             </a>
           </small>
           <small className="me-3">
             <i className="fas fa-envelope me-2 text-secondary" />
             <a href="#" className="text-white">
-              Email@Example.com
+            raviexcelinfo2024@gmail.com
             </a>
           </small>
         </div>
@@ -36,9 +36,9 @@ const Homepages = () => {
       </div>
     </div>
     <div className="container px-0">
-      <nav className="navbar navbar-light bg-white navbar-expand-xl">
+      <nav className="navbar navbar-light bg-black navbar-expand-xl">
         <a href="index.html" className="navbar-brand">
-          <h1 className="text-primary display-6">Fruitables</h1>
+          <h1 className="indigo-600 display-6">Fruits</h1>
         </a>
         <button
           className="navbar-toggler py-2 px-3"
