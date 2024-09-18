@@ -1,3 +1,4 @@
+import Banner from "./Movieapp/Banner";
 import Home from "./Movieapp/Home";
 import Movies from "./Movieapp/Movies";
 import Navbar from "./Movieapp/Navbar";
@@ -7,6 +8,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 function App() {
   return (
     <div>
+      <>
       <BrowserRouter>
       <Navbar/>
 
@@ -14,7 +16,7 @@ function App() {
       <Route path="/" element={<Home/>} />
 
 {/* Movies Route */}
-          <Route path="/movies" element={<Movies />} />
+          <Route path="/movies" element={<><Banner/> <Movies/></>} />
 
         <Route path="/watchlist" element={ <Watchlist/>}></Route>
 
@@ -22,6 +24,8 @@ function App() {
      
       </Routes>
       </BrowserRouter>
+      </>
+      
         
 
     </div>
