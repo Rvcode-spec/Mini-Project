@@ -7,8 +7,14 @@ function Movies() {
           Trending Movies
       </div>
 
-      <div>
-        <MovieCard></MovieCard>
+      <div className='flex flex-row flex-wrap justify-around'>
+        <MovieCard/>
+        <MovieCard/>
+        <MovieCard/>
+        <MovieCard/>
+        <MovieCard/>
+        <MovieCard/>
+       
       </div>
     </div>
   )
