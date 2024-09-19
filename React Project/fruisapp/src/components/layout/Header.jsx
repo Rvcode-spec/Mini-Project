@@ -16,13 +16,13 @@ const Header = () => {
             <small className="me-3">
               <i className="fas fa-map-marker-alt me-2 text-secondary" />{" "}
               <a href="#" className="text-white">
-                123 Street, New York
+                504, Space Time Gk-2 New Delhi 110020
               </a>
             </small>
             <small className="me-3">
               <i className="fas fa-envelope me-2 text-secondary" />
               <a href="#" className="text-white">
-                Email@Example.com
+              informfurites@gmail.com
               </a>
             </small>
           </div>
@@ -42,7 +42,7 @@ const Header = () => {
       <div className="container px-0">
         <nav className="navbar navbar-light bg-white navbar-expand-xl">
           <a href="index.html" className="navbar-brand">
-            <h1 className="text-primary display-6">Fruitables</h1>
+            <h1 className="text-primary display-6">FruitWhirl</h1>
           </a>
           <button
             className="navbar-toggler py-2 px-3"
