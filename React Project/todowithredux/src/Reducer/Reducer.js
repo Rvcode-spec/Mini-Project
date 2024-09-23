@@ -1,7 +1,7 @@
 
 
 const initialState ={
-    todos:['ravi' , 'shankar' ,'singh']
+    todos:['ravi' , 'shankar']
 }
 const todoReducer=(state=initialState,action)=>{
 
