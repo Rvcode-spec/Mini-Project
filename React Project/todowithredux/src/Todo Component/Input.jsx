@@ -41,23 +41,18 @@ function Input() {
 
     return (
         <div>
-            {/* Uncomment form tag if form is needed */}
-            {/* <form onSubmit={submit}> */}
                 <input 
                     type="text" 
                     placeholder='Enter the todo'
                     onChange={changeInput}  // Fixed handler name
-                    value={todo}
-                />
+                    value={todo} className='w-50px'/>
 
-                
-                    {
+    {
 
-                        error &&  <p className='text text-danger'>Enter some todo to continue</p>
-                     }
+     error &&  <p className='text text-danger'>Enter some todo to continue</p>
+    }
                 
                 <button onClick={submit}>Add Todo</button>
-            {/* </form> */}
         </div>
     );
 }
