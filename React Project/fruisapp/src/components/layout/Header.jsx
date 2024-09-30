@@ -10,7 +10,7 @@ const Header = () => {
     {/* Spinner End */}
     {/* Navbar start */}
     <div className="container-fluid fixed-top">
-      <div className="container topbar bg-primary d-none d-lg-block">
+      <div className="container topbar bg-success d-none d-lg-block">
         <div className="d-flex justify-content-between">
           <div className="top-info ps-2">
             <small className="me-3">
@@ -40,9 +40,9 @@ const Header = () => {
         </div>
       </div>
       <div className="container px-0">
-        <nav className="navbar navbar-light bg-white navbar-expand-xl">
+        <nav className="navbar navbar-light navbar-expand-xl">
           <a href="index.html" className="navbar-brand">
-            <h1 className="text-primary display-6">FruitWhirl</h1>
+          <h1 className="text-warning display-6">FruitWhirl</h1>
           </a>
           <button
             className="navbar-toggler py-2 px-3"
@@ -50,7 +50,7 @@ const Header = () => {
             data-bs-toggle="collapse"
             data-bs-target="#navbarCollapse"
           >
-            <span className="fa fa-bars text-primary" />
+            <span className="fa fa-bars text-teal" />
           </button>
           <div className="collapse navbar-collapse bg-white" id="navbarCollapse">
             <div className="navbar-nav mx-auto">
@@ -81,7 +81,6 @@ const Header = () => {
                   <NavLink to="/checkout" className="dropdown-item">
                     Checkout
                   </NavLink>
-                
                 </div>
               </div>
             

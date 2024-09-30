@@ -10,7 +10,7 @@ const Footer = () => {
             className="pb-4 mb-4"
             style={{ borderBottom: "1px solid rgba(226, 175, 24, 0.5)" }}
           >
-            <div className="row g-4">
+            <div className="row g-5">
               <div className="col-lg-3">
                 <a href="#">
                   <h1 className="text-primary mb-0">Fruitables</h1>
