@@ -1,19 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 function List() {
   const todos = useSelector((store) => store.todos);
   const dispatch = useDispatch();
 
-  const deletetodo = (todo) => {
+  const [edittodo, setedittodo]=useState(null);
+  
+
+  const deletetodo = (index) => {
     console.log("Delete function fired");
-    console.log(todo);
+    console.log(index);
     dispatch({
       type: "DELETE_TODO",
-      payload: todo,
+      payload: index,
 
     });
   };
+
+  const todoedit=(oldtodo)=>{
+    console.log("this toto");
+    
+    dispatch({
+      type:'EDIT_TODO',
+      payload:{oldtodo, todo:edittodo},
+      
+    })
+  }
 
   return (
     <div>
@@ -28,7 +41,7 @@ function List() {
                   onClick={() => deletetodo(todo)} 
                 >Delete</button>
 
-                <button className='btn btn-primary'>
+                <button className='btn btn-primary' onClick={todoedit}>
                   Edit</button>
               </div>
             </li>

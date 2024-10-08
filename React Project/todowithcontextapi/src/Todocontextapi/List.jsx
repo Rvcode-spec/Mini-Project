@@ -3,22 +3,24 @@ import { TodoApicontext } from '../Todocontext'
 
 const List = () => {
   const {todo,removetodo}= useContext(TodoApicontext)
+
+  if (!Array.isArray(todo) || todo.length === 0) {
+    return <p>No todos available</p>;  // Fallback message if no todos
+  }
   return (
   <div className='list-field'>
   <ul className="list-group">
      {
-        todo.map((task,index)=>(
-          <li key={index}>{task}  
-          <button onClick={()=>removetodo(index)}>done</button>
-              </li>
-      ))
-     } 
-  
-  <li className="list-group-item">An item</li>
-  <li className="list-group-item">A second item</li>
-  <li className="list-group-item">A third item</li>
-  <li className="list-group-item">A fourth item</li>
-  <li className="list-group-item">And a fifth one</li>
+        todo.map>0?((task,index)=>{
+          <li key={index}>{task}
+          <div>{todo}</div>
+          <button onClick={()=>removetodo(index)} className='btn-danger'>Delete</button>
+          </li>
+
+        }):<li className="list-group-item" color='#fff'>No todos</li>m
+        
+      }
+
 </ul>
     </div>
   )

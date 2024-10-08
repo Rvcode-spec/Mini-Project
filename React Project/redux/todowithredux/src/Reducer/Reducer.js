@@ -15,7 +15,7 @@ switch(action.type){
                 default:
                         return state; 
 
-                        case "DELETE_TODO":
+    case "DELETE_TODO":
                             let filtereddata=state.todos.filter((todo)=>todo!==action.payload)
                 
                             console.log(filtereddata);
@@ -25,6 +25,10 @@ switch(action.type){
                                 todos:filtereddata
                             
                             }
+
+     case 'EDIT_TODO':{
+        
+     }           
        
     }
 

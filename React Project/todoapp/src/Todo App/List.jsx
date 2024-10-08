@@ -13,9 +13,7 @@ export default function List(props) {
                         <div>{todo}</div>
 
                         <div>
-                        <button 
-                    className='btn-danger'
-                    onClick={()=>props.deletetodo(todo)}
+                        <button className='btn-danger'onClick={()=>props.deletetodo(todo)}
                     
                     >Delete</button>
 
@@ -24,9 +22,6 @@ export default function List(props) {
                     
                     
                     </div>
-
-                    
-                        
                         </li>
                     }): <li class="list-group-item">no todo</li>
                 }    

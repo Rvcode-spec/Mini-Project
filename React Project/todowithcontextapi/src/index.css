@@ -14,7 +14,7 @@
       position: fixed;
       border-radius: 10px;
       transform: translate(-50%, -50%);
-      background-color: rgb(0, 255, 166);
+      background-color: black
 }
 
 .Input-Field{
@@ -38,13 +38,45 @@
   text-align: center;
 }
 
+.Input-Field button{
+
+    width: 100px;
+    height: 45px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+    font-weight: 700;
+    background-color: blueviolet;
+    border: none;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.Input-Field button:hover{
+
+  background-color: yellow;
+  color: black;
+}
+
+
 .list-field{
 
   margin-top: 10px;
+  display: flex;
+  color: aliceblue;
   
 }
 
 .list-field ul li{
-background-color: rgb(14, 232, 232);
+background-color: black;
+display: flex;
+color: aliceblue;
 border: none;
+}
+
+.list-field ul li :hover{
+
+  color: aliceblue;
 }

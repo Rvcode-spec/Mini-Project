@@ -3,7 +3,8 @@ import React, { createContext, useState } from 'react'
 const TodoApicontext=createContext();
 const Todoprovider = ({children}) => {
     const [todo, settodo]=useState(['']);
-    
+  
+  
     const addtodo=(task)=>{
       settodo([...todo,task])
       console.log('Todo added:', task);
@@ -15,7 +16,7 @@ const Todoprovider = ({children}) => {
         settodo(newtodo)
     }
   return (
-    <TodoApicontext.Provider value={{todo,addtodo,removetodo}}>
+    <TodoApicontext.Provider value={{ todo, settodo, addtodo, removetodo }}>
     {children}
     </TodoApicontext.Provider>
   )
